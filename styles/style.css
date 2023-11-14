@@ -92,7 +92,7 @@ body {
   background-color: rgb(0 0 0 / 0.6);
 }
 
-.cover-title {
+.cover__title {
   position: relative;
   text-transform: uppercase;
   color: #fff;
