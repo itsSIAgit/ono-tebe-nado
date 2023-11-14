@@ -18,20 +18,20 @@
     -->
 
     <header class="header content-section">
-      <nav class="header-menu">
-        <ul class="menu header-menu-list">
-          <li class="menu-item menu-item-active">
-            <a class="menu-link">главная</a>
+      <nav class="header__menu">
+        <ul class="menu header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link">главная</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link" href="#0">посмотреть лоты</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link" href="#0">об аукционе</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>        
       </nav>
-      <a class="header-logo">
+      <a class="header__logo">
         <img src="./images/logo-black.svg" alt="Логотип">
       </a>
       <address class="address">
@@ -45,35 +45,35 @@
         <div class="overlay"></div>
         <h1 class="cover-title">
           <span
-            class="aligned-text aligned-text-left">о<span
+            class="aligned-text aligned-text_left">о<span
             class="letter-spacing-extended">но</span>
           </span>
-          <span class="aligned-text aligned-text-center">те<span
+          <span class="aligned-text aligned-text_center">те<span
             class="letter-spacing-extended">бе</span>
           </span>
-          <span class="aligned-text aligned-text-right"><span
+          <span class="aligned-text aligned-text_right"><span
             class="letter-spacing-extended">н</span>ад<span
             class="no-letter-spacing">о</span>
           </span>
         </h1>
-        <div class="cover-description">
-          <p class="cover-description-text">
+        <div class="cover__description">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
           <button class="bet-button" type="button" name="bet">Сделать ставку</button>
         </div>
       </section>
       <section class="lots content-section">
-        <h2 class="lots-heading">Лоты</h2>
-        <ul class="lots-card-list">
-          <li class="lots-card-list-item card-type-film">
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item card_type_film">
             <div class="overlay"></div>
             <a class="card-link" href="#0">
               <article class="card">
-                <h3 class="card-title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <p class="card-text">
+                <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции.
                   Какой была бы ваша ставка, если бы вы не знали,
                   что режиссёр — Пол Томас Андерсон?
@@ -81,14 +81,14 @@
               </article> 
             </a>
           </li>
-          <li class="lots-card-list-item card-type-book">
+          <li class="lots__card-list-item card_type_book">
             <div class="overlay"></div>
             <a class="card-link" href="#0">
               <article class="card">
-                <h3 class="card-title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <p class="card-text">
+                <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
                   переходами на древнеанглийский. В ней одновременно рассказывается о
                   16 июня 1904 года и об истории литературы, начиная с античных времён.
@@ -98,14 +98,14 @@
               </article> 
             </a>
           </li>
-          <li class="lots-card-list-item card-type-picture">
+          <li class="lots__card-list-item card_type_picture">
             <div class="overlay"></div>
             <a class="card-link" href="#0">
               <article class="card">
-                <h3 class="card-title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <p class="card-text">
+                <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
                   похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
                   Сколько бы вы на такое поставили, если бы не знали, что это — одна
@@ -115,19 +115,19 @@
             </a>
           </li>
         </ul>
-        <a class="lots-look-more-link" href="#0">
+        <a class="lots__look-more-link" href="#0">
           посмотреть больше
         </a>
       </section>
       <section class="about content-section">
-        <div class="about-logo">
+        <div class="about__logo">
           <img src="./images/logo-white.svg" alt="Логотип">
         </div>
-        <div class="about-column">
-          <h2 class="about-title">
+        <div class="about__column">
+          <h2 class="about__title">
             Об аукционе
           </h2>
-          <div class="about-text">
+          <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть
@@ -154,26 +154,32 @@
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav>
-        <ul class="menu footer-menu-list">
-          <li class="menu-item menu-item-active"><a class="menu-link">главная</a></li>
-          <li class="menu-item"><a class="menu-link" href="#0">посмотреть лоты</a></li>
-          <li class="menu-item"><a class="menu-link" href="#0">об аукционе</a></li>
+        <ul class="menu footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link footer__menu-link_active">главная</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#0">об аукционе</a>
+          </li>
         </ul>        
       </nav>
-      <ul class="social-list">
+      <ul class="footer__social-list">
         <li>
           <a href="#0" target="_blank">
-            <img class="social-icon" src="./images/yt.svg" alt="YouTube">
+            <img class="footer__social-icon" src="./images/yt.svg" alt="YouTube">
           </a>
         </li>
         <li>
           <a href="#0" target="_blank">
-            <img class="social-icon" src="./images/vk.svg" alt="VKontakte">
+            <img class="footer__social-icon" src="./images/vk.svg" alt="VKontakte">
           </a>
         </li>
         <li>
           <a href="#0" target="_blank">
-            <img class="social-icon" src="./images/pinterest.svg" alt="Pinterest">
+            <img class="footer__social-icon" src="./images/pinterest.svg" alt="Pinterest">
           </a>
         </li>
       </ul>
