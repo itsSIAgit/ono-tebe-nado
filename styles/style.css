@@ -147,25 +147,14 @@ body {
 .bet-button {
   cursor: pointer;
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   border: 1px solid #FFF;
   background-color: transparent;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   color: #FFF;
 }
-
-.bet-button:hover {
-  color: #000;
-  background-color: #fff;
-}
-
-.bet-button:active {
-  color: #999;
-  background-color: #555;
-}
-
 
 .lots {
   padding: 180px 50px 181px;
